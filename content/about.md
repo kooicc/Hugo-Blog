@@ -1,15 +1,10 @@
 ---
 title: "关于"
-layout: about
-type: about
-draft: false
 ---
 
-Hi，💕
+Hi💕
 
-这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) & [PaperMod](https://github.com/viazure/hugo-blog-awesome) 构建。
-
-托管于 [GitHub Pages](https://pages.github.com/) ，并由<img src="https://s3.bmp.ovh/2026/04/19/Xjvqza0r.png" alt="button.png">提供全球加速。
+这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) & [PaperMod](https://github.com/viazure/hugo-blog-awesome) 构建，托管在[GitHub](https://www.github.com/) & [Cloudflare Pages](https://pages.cloudflare.com/)
 
 从小看《动物世界》喜欢户外徒步，看人文自然纪录片（地球脉动）。听歌（李宗盛，孙燕姿，邓紫棋），游戏：英雄联盟。
 

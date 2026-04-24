@@ -1,5 +1,5 @@
 baseURL: "https://blog.244056614.xyz/"
-title: 📚Blog
+title: Gentoo'Blog🏃‍♂️
 theme: PaperMod
 defaultContentLanguage: "zh-cn"
 languageCode: "zh-CN"
@@ -64,14 +64,14 @@ params:
   # 社交图标（替换为你的实际链接，不需要的可删除）
   socialIcons:
     - name: github
-      url: "https://github.com/your-username" # 替换为你的GitHub链接
+      url: "https://github.com/"
     - name: TikTok
-      url: "https://www.tiktok.com/your-username" # 替换为你的抖音链接
-    - name: wechat
-      url: "/images/wechat-qr.png" # 微信二维码图片路径（需放在static/images/下）
+      url: "https://www.douyin.com/"
+    - name: WeChat
+      url: "https://weixin.qq.com/"
     - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+      title: FreeBSD基金会
+      url: "https://freebsdfoundation.org/donate-to-freebsd-foundation/"
 
   # 搜索功能（Fuse.js）参数
   fuseOpts:
@@ -115,6 +115,10 @@ menu:
       name: 关于
       url: /about/
       weight: 7
+    - identifier: friends
+      name: 链接
+      url: /friends/
+      weight: 8  # 调整顺序，放在你想要的位置
 
 # 渲染配置
 markup:
