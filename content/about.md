@@ -2,14 +2,32 @@
 title: "关于"
 ---
 
-欢迎来到「秋雨夜眠」的个人博客，这里主要记录技术学习、生活感悟、读书笔记等内容。
+Hi，👋
 
-- ������‍������ 一名热爱技术的开发者，专注于前端、Go 语言、静态站点构建等领域
-- ������ 喜欢阅读、写作，乐于分享所学所思
-- ������ 联系方式：可通过博客评论或 GitHub 私信交流
+这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) 构建，主题采用的是 [viazure](https://github.com/viazure/hugo-blog-awesome)。
 
-- ������ 技术栈：基于 Hugo 构建，使用 PaperMod 主题
-- ������ 初衷：沉淀知识、记录成长，也希望能给路过的朋友带来一点帮助
-- ⏳ 更新频率：尽量保持每周更新 1-2 篇原创内容
+托管于 [GitHub Pages](https://kooicc.github.io) ，并由 <img src="https://s3.bmp.ovh/2026/04/19/Xjvqza0r.png" alt="Cloudflare" style="height: 2.2em; width: auto; vertical-align: -0.3em; display: inline-block;"> 提供全球加速。
 
-本站所有原创文章，未经授权请勿转载；非原创内容均会注明出处，如有侵权请联系删除。
+从小看《动物世界》喜欢户外徒步，看人文自然纪录片（地球脉动）。听歌（李宗盛，孙燕姿，邓紫棋），游戏：英雄联盟。
+
+对电脑服务器、NAS网络存储、等感兴趣，沉溺于各种Linux发行版，不能自拔。
+
+目前拥有：群晖DS220+(DSM7.3)/绿联DXP4800(UGOS Pro)/HPE Gen 10 Plus(飞牛fnOS)/DELL T340(Debian 13)
+
+- Alpine Linux (最近尝试)
+- ArchLinux：滚动最新
+- Gentoo：编译滚动  
+
+- DEB系列
+  - Debian：开源稳定
+
+- RPM系列
+  - Fedora：试验田
+  - RHEL：商业稳定
+  - RockyLinux：开源兼容
+  - CentOS Stream：滚动更新
+
+联系方式📮：<8bps@proton.me>
+
+<!-- markdown -->
+![bing](https://api.xygeng.cn/bing/view)
