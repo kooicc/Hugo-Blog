@@ -1,10 +1,8 @@
 ---
 title: "Hugo 博客搭建成功"
-date: 2025-04-11
-lastmod: 2025-05-20
+date: 2026-04-23
 tags: ["Hugo", "教程"]
 categories: "博客"
-draft: false
 ---
 
 Hugo 是一个非常快速的静态网站生成器，配合 PaperMod 主题可以轻松搭建美观的博客。
@@ -16,6 +14,3 @@ Hugo 是一个非常快速的静态网站生成器，配合 PaperMod 主题可�
 - 标签与分类
 - 深色模式
 
-asd非常好用！
-1
-wfsd

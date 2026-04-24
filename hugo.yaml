@@ -4,8 +4,8 @@ theme: PaperMod
 defaultContentLanguage: "zh-cn"
 languageCode: "zh-CN"
 hasCJKLanguage: true               # 适配中文排版（字间距、换行等）
-enableGitInfo: false              # 开启后才能准确读取git提交的lastmod（官方要求）
-enableRobotsTXT: true              # 允许搜索引擎抓取
+enableGitInfo: true             # 开启后才能准确读取git提交的lastmod（官方要求）
+enableRobotsTXT: false              # 允许搜索引擎抓取
 buildDrafts: false                 # 生产环境关闭草稿
 buildFuture: false                 # 关闭未来发布的内容
 buildExpired: false                # 关闭过期内容
