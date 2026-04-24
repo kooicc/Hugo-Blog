@@ -10,4 +10,4 @@ draft: false
 
 hugo server -D --bind 0.0.0.0
 
-手机、电脑、平板都能打开预览，非常方便！
+手机、电脑、平板都能打开预览，非常方便！safsdf
