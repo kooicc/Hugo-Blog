@@ -1,5 +1,5 @@
 baseURL: "https://blog.244056614.xyz/"
-title: Gentoo's Blog
+title: 📚Blog
 theme: PaperMod
 defaultContentLanguage: "zh-cn"
 languageCode: "zh-CN"
@@ -58,7 +58,7 @@ params:
 
   # 个人主页模式下的信息（profileMode.enabled=true时生效）
   homeInfoParams:
-    Title: "秋雨夜眠📚"
+    Title: "秋雨夜眠"
     Content: "记录技术学习与日常随笔"
 
   # 社交图标（替换为你的实际链接，不需要的可删除）
