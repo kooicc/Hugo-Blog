@@ -1,0 +1,133 @@
+baseURL: "http://100.106.54.44:1313"
+title: Gentoo's Blog
+theme: PaperMod
+defaultContentLanguage: "zh-cn"
+languageCode: "zh-CN"
+hasCJKLanguage: true               # 适配中文排版（字间距、换行等）
+enableGitInfo: false              # 开启后才能准确读取git提交的lastmod（官方要求）
+enableRobotsTXT: true              # 允许搜索引擎抓取
+buildDrafts: false                 # 生产环境关闭草稿
+buildFuture: false                 # 关闭未来发布的内容
+buildExpired: false                # 关闭过期内容
+enableEmoji: true                  # 支持emoji表情
+summaryLength: 70                  # 文章摘要长度（中文适配）
+
+# 压缩配置
+minify:
+  disableXML: false                # 生产环境保留XML（用于sitemap.xml）
+  minifyOutput: true               # 压缩输出文件（提升加载速度）
+
+# 分页配置
+pagination:
+  pagerSize: 10                    # 每页展示10篇文章（可根据内容量调整）
+
+# 输出格式（搜索功能依赖JSON）
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# 搜索功能关联配置
+outputSections: ["search"]
+
+# PaperMod主题核心参数
+params:
+  env: production                  # 生产环境标识
+  title: 秋雨夜眠
+  description: "秋雨夜眠个人技术博客，记录技术学习与日常随笔" # SEO描述
+  keywords: [Hugo, PaperMod, 技术博客, 编程, 后端] # SEO关键词（按需扩展）
+  author: 秋雨夜眠
+  DateFormat: "2006年1月2日"       # 中文时间格式
+  defaultTheme: auto               # 自动跟随系统明暗主题
+  disableThemeToggle: false        # 允许手动切换明暗主题
+  ShowReadingTime: false           # 关闭阅读时长（按需开启）
+  ShowWordCount: false             # 关闭字数统计（按需开启）
+  ShowShareButtons: false          # 关闭分享按钮（按需开启）
+  ShowPostNavLinks: true           # 开启文章上下篇导航
+  ShowBreadCrumbs: false           # 关闭面包屑导航（按需开启）
+  ShowCodeCopyButtons: true        # 开启代码复制按钮（技术博客必备）
+  ShowRssButtonInSectionTermList: true # 分类/标签页显示RSS按钮
+  UseHugoToc: true                 # 使用Hugo内置目录
+  showtoc: true                    # 显示文章目录
+  tocopen: true                    # 默认展开目录
+  ShowLastMod: true                # 显示文章最后修改时间
+  # 个人主页模式（关闭则显示文章列表，开启需配置homeInfoParams）
+  profileMode:
+    enabled: false
+
+  # 个人主页模式下的信息（profileMode.enabled=true时生效）
+  homeInfoParams:
+    Title: "秋雨夜眠📚"
+    Content: "记录技术学习与日常随笔"
+
+  # 社交图标（替换为你的实际链接，不需要的可删除）
+  socialIcons:
+    - name: github
+      url: "https://github.com/your-username" # 替换为你的GitHub链接
+    - name: TikTok
+      url: "https://www.tiktok.com/your-username" # 替换为你的抖音链接
+    - name: wechat
+      url: "/images/wechat-qr.png" # 微信二维码图片路径（需放在static/images/下）
+    - name: KoFi
+      title: Buy me a Ko-Fi :)
+      url: "https://ko-fi.com/adityatelange"
+
+  # 搜索功能（Fuse.js）参数
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 1
+    limit: 10
+    keys: ["title", "summary", "content"]
+
+# 导航菜单配置
+menu:
+  main:
+    - identifier: home
+      name: 首页
+      url: /
+      weight: 1
+    - identifier: posts
+      name: 文章
+      url: /posts/
+      weight: 2
+    - identifier: tags
+      name: 标签
+      url: /tags/
+      weight: 3
+    - identifier: categories
+      name: 分类
+      url: /categories/
+      weight: 4
+    - identifier: archives
+      name: 归档
+      url: /archives/ # 补充归档页面URL（修复404）
+      weight: 5
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 6
+    - identifier: about
+      name: 关于
+      url: /about/
+      weight: 7
+
+# 渲染配置
+markup:
+  highlight:
+    noClasses: false # 使用自定义CSS高亮代码（PaperMod推荐）
+  goldmark:
+    renderer:
+      unsafe: true # 允许Markdown中使用HTML标签（技术博客必备）
+
+# 最后修改时间优先级
+frontmatter:
+  lastmod: [":fileModTime", "lastmod"] # 优先文件修改时间，其次文章frontmatter的lastmod
+
+# 文章永久链接（SEO友好，带年月日）
+permalinks:
+  posts: /posts/:year/:month/:day/:slug/
