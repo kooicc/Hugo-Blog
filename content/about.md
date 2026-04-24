@@ -7,9 +7,9 @@ draft: false
 
 Hi，👋
 
-这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) 构建，主题采用的是 [viazure](https://github.com/viazure/hugo-blog-awesome)。
+这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) 构建，主题采用的是 [PaperMod](https://github.com/viazure/hugo-blog-awesome)。
 
-托管于 [GitHub Pages](https://kooicc.github.io) ，并由 <img src="https://s3.bmp.ovh/2026/04/19/Xjvqza0r.png" alt="Cloudflare" style="height: 2.2em; width: auto; vertical-align: -0.3em; display: inline-block;"> 提供全球加速。
+托管于 [GitHub Pages](https://kooicc.github.io) ，并由[Cloudflare](https://s3.bmp.ovh/2026/04/19/Xjvqza0r.png)提供全球加速。
 
 从小看《动物世界》喜欢户外徒步，看人文自然纪录片（地球脉动）。听歌（李宗盛，孙燕姿，邓紫棋），游戏：英雄联盟。
 
