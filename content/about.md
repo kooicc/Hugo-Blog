@@ -1,5 +1,8 @@
 ---
 title: "关于"
+layout: about
+type: about
+draft: false
 ---
 
 Hi，👋
