@@ -126,7 +126,7 @@ markup:
 
 # 最后修改时间优先级
 frontmatter:
-  lastmod: [":fileModTime", "lastmod"] # 优先文件修改时间，其次文章frontmatter的lastmod
+  lastmod: [":git", "lastmod", "date"]  # 优先级：Git 提交时间 > 手动lastmod > 发布时间
 
 # 文章永久链接（SEO友好，带年月日）
 permalinks:
