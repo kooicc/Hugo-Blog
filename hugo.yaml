@@ -1,5 +1,5 @@
 baseURL: "https://blog.244056614.xyz/"
-title: Gentoo'Blog🏃‍♂️
+title: 📚Gentoo'Blog
 theme: PaperMod
 defaultContentLanguage: "zh"
 languageCode: "zh-CN"
@@ -39,7 +39,7 @@ params:
   keywords: [Hugo, PaperMod, 技术博客, 编程, 后端] # SEO关键词（按需扩展）
   author: 秋雨夜眠
   DateFormat: "2006年1月2日"       # 中文时间格式
-  defaultTheme: "auto"              # 自动跟随系统明暗主题
+  defaultTheme: "dark"              # 自动跟随系统明暗主题
   disableThemeToggle: false        # 允许手动切换明暗主题
   ShowReadingTime: false           # 关闭阅读时长（按需开启）
   ShowWordCount: false             # 关闭字数统计（按需开启）
