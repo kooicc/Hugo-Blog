@@ -4,7 +4,7 @@ title: "关于"
 
 Hi💕
 
-这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) & [PaperMod](https://github.com/viazure/hugo-blog-awesome) 构建，托管在[GitHub](https://www.github.com/) & [Cloudflare Pages](https://pages.cloudflare.com/)
+这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) & [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 构建，托管在[GitHub](https://www.github.com/) & [Cloudflare Pages](https://pages.cloudflare.com/)
 
 从小看《动物世界》喜欢户外徒步，看人文自然纪录片（地球脉动）。听歌（李宗盛，孙燕姿，邓紫棋），游戏：英雄联盟。
 
