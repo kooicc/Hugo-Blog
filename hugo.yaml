@@ -130,18 +130,13 @@ markup:
     renderer:
       unsafe: true # 允许Markdown中使用HTML标签（技术博客必备）
 
-# 最后修改时间优先级
 frontmatter:
   lastmod:
-    - ":git"        # 优先 Git 提交时间
-    - "lastmod"     # 其次手动指定的 lastmod
-    - "date"        # 最后用发布时间兜底
-  date:
+    - ":fileModTime"
+    - ":git"
+    - "lastmod"
     - "date"
-    - "publishDate"
-    - ":filename"
-    - ":default"
-timeZone: "Asia/Shanghai"  # 新增：指定时区（关键！避免时间差）
+
 
 # 文章永久链接（SEO友好，带年月日）
 permalinks:
