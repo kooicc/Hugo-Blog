@@ -2,7 +2,7 @@
 
 Hi，👋
 
-这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) 构建，主题采用的是 [viazure](https://github.com/viazure/hugo-blog-awesome)。
+这是我的博客，
 
 托管于 [GitHub Pages](https://kooicc.github.io) ，并由 <img src="https://s3.bmp.ovh/2026/04/19/Xjvqza0r.png" alt="Cloudflare" style="height: 2.2em; width: auto; vertical-align: -0.3em; display: inline-block;"> 提供全球加速。
 
