@@ -8,7 +8,7 @@ cover:
   image: ""
 ---
 
-2026年4月17日，NASA喷气推进实验室（JPL）的工程师们发送指令，关闭了旅行者1号上的一项名为低能带电粒子实验（LECP）的仪器。这艘核动力航天器电力快耗尽，关闭LECP被认为是维持人类首个星际探测器运行的最佳方式。
+2026年4月17日，NASA所属喷气推进实验室（JPL）的工程师们发送指令，关闭了旅行者1号上的一项名为低能带电粒子实验（LECP）的仪器。这艘核动力航天器电力快耗尽，关闭LECP被认为是维持人类首个星际探测器运行的最佳方式。
 
 {{< figure
     src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/voyager/images/1_Voyager_artist_concept.jpg"
