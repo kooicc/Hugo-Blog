@@ -1,0 +1,15 @@
+[Unit]
+Description=Hugo Development Server
+After=network.target
+
+[Service]
+Type=simple
+User=koicc
+Group=koicc
+WorkingDirectory=/home/koicc/hugo-blog
+ExecStart=/usr/local/bin/hugo server -D --bind=0.0.0.0 --baseURL=http://100.106.54.44:1313/ --noHTTPCache
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target
