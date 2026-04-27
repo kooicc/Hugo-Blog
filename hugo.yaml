@@ -119,7 +119,7 @@ menu:
       url: /about/
       weight: 7
     - identifier: friends
-      name: 链接
+      name: 友链
       url: /friends/
       weight: 8  # 调整顺序，放在你想要的位置
 
