@@ -6,17 +6,14 @@ categories: ["网络技术"]
 ---
 
 # 1. 什么是 Tailscale
-## 2. [子网路由(Subnet routers)](https://tailscale.com/kb/1019/subnets) 
+
 [Tailscale](https://tailscale.com) 是基于 WireGuard 构建的现代 VPN，通过 NAT 穿越实现设备点对点互联。
 
-- 官方控制面板：https://login.tailscale.com/admin/machines
-- 下载地址：https://tailscale.com/download
-
-
-# 1. 什么是 Tailscale
-[Tailscale](https://tailscale.com) 是基于WireGuard® 构建的现代 VPN，通过 NAT 穿越实现设备点对点互联。
-
-[在线控制面板](https://login.tailscale.com/admin/machines) | [软件下载](https://tailscale.com/download/linux) | [离线安装包](https://pkgs.tailscale.com/stable/#static) | [Docker镜像](https://hub.docker.com/r/tailscale/tailscale) | [更新日志](https://tailscale.com/changelog#client)
+- 官方控制面板：<https://login.tailscale.com/admin/machines>
+- 下载地址：<https://tailscale.com/download>
+- 离线安装包<https://pkgs.tailscale.com/stable/#static>
+- Docker镜像<https://hub.docker.com/r/tailscale/tailscale>
+- 更新日志<https://tailscale.com/changelog#client>
 
 ```bash
 Linux发型版安装脚本
@@ -27,7 +24,7 @@ tailscale up --accept-dns=false
 
 -------------------------------------------------------------------------------------
 
-## 2. [子网路由(Subnet routers)](https://tailscale.com/kb/1019/subnets) 
+## 2. [子网路由(Subnet routers)](https://tailscale.com/kb/1019/subnets)
 
 *子网路由用于让 Tailscale 设备访问内网非 Tailscale 设备（Tailscale充当网关）。*
 
@@ -88,12 +85,51 @@ tailscale up --accept-dns=false
 tailscale set --exit-node=100.104.66.71 --exit-node-allow-lan-access=true
 ```
 
-​ 3.5 停止使用出口节点，且重载配置 
+​ 3.5 停止使用出口节点，且重载配置
 
 ```bash
 tailscale set --exit-node= && \
 tailscale up --reset --accept-dns=false --accept-routes
 ```
+
+## 4. [对等中继(Peer Relay)](https://tailscale.com/docs/features/peer-relay?utm_source=blog&utm_medium=content&utm_campaign=tailscale-winter-update-2026)  
+
+配置 Tailscale 对等中继（最好是有公网的云服务器）
+
+### 4.1 开放 UDP 端口
+
+通过 SSH 或远程终端登录到该节点，执行以下命令：
+
+`tailscale set --relay-server-port=40000`
+
+### 4.2 为设备添加中继标签
+
+为设备打标签：登录[Tailscale控制台](https://login.tailscale.com/admin/machines)，找到目标设备，为其添加标签 relay。（Edit ACL tags）
+
+### 4.3 配置访问控制列表（ACL）
+
+打开 [Tailscale Admin Console](https://login.tailscale.com/admin/acls/file)，在 ACL 文件中添加 grants 规则：
+
+```json
+"grants": [
+    // 允许所有连接的基础策略（可根据需要调整）
+    {
+        "src": ["*"],
+        "dst": ["*"],
+        "ip": ["*"],
+    },
+    // 对等中继专用策略
+    {
+        "src": ["*"], // 源：允许所有节点
+        "dst": ["tag:relay"], // 目标：所有带有 relay 标签的设备
+        "app": {
+            "tailscale.com/cap/relay": [], // 授予“中继”应用权限
+        },
+    },
+],
+```
+
+> <https://yunpan.plus/t/14248-1-1>
 
 #### 其它开源参考
 >
