@@ -94,10 +94,6 @@ menu:
       name: 首页
       url: /
       weight: 1
-    - identifier: posts
-      name: 文章
-      url: /posts/
-      weight: 2
     - identifier: tags
       name: 标签
       url: /tags/
@@ -118,10 +114,6 @@ menu:
       name: 关于
       url: /about/
       weight: 7
-    - identifier: friends
-      name: 友链
-      url: /friends/
-      weight: 8  # 调整顺序，放在你想要的位置
 
 # 渲染配置
 markup:
