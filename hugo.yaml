@@ -107,7 +107,7 @@ menu:
       url: /categories/
       weight: 4
     - identifier: archives
-      name: 归档
+      name: 时光机
       url: /archives/ # 补充归档页面URL（修复404）
       weight: 5
     - identifier: search
