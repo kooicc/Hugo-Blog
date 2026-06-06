@@ -1,57 +1,27 @@
 ---
 title: FreeBSD
-date: 2026-06-05T01:16:53+08:00
+date: 2026-06-04
+lastmod: 2025-06-05
 cover:
     image: "FreeBSD-logo-dark.png"
-    relative: true
-    hidden: false
+    caption: "" # 图片下方的说明
+    hiddenInSingle: true            # 是否只在列表页显示，而在文章页内隐
+
 categories:
   - FreeBSD
 tags:
   - FreeBSD
 ---
 
-[FreeBSD](https://www.freebsd.org/zh-tw/) 是一个免费、开源、类 Unix 的操作系统，源自 BSD（伯克利软件发行版），以高性能、稳定可靠、安全性强著称。
+# [FreeBSD](https://www.freebsd.org/zh-tw/) FreeBSD 是一个开源、符合标准的类 Unix 操作系统。
 
-<!--more-->
 
-## 使用 Ports Collection  
+![FRESH ports](https://www.freshports.org/images/freshports.jpg)    
 
-![FRESH ports](https://www.freshports.org/images/freshports.jpg)  
-> FreeBSD 用 Ports 来编译安装最新版软件
 
-1. 查询软件包：<https://www.freshports.org/login.php>
+# 更新系统软件
 
-2. 克隆 Ports 仓库
-
-    `git clone https://git.FreeBSD.org/ports.git /usr/ports`
-
-3. 更新 Ports
-
-    ```bash
-    cd /usr/ports
-    git pull
-    ```
-
-4. 编译并安装 Hugo（示列）
-
-    ```sh
-    cd /usr/ports/www/gohugo
-    make install clean
-    ```
-
-5. 清理旧版本
-   Ports 的编译过程默认不会删除旧版本，建议每次更新后运行：
-
-    ```sh
-    pkg autoremove
-    ```
-
-## 更新系统软件
-
-`pkg update && pkg upgrade`
-
-### 使用代理
+## 使用代理
 
 编辑*pkg.conf*文件末尾添加代理信息  
 
@@ -66,7 +36,7 @@ pkg_env: {
 }
 ```
 
-### 使用国内镜像源
+## 使用国内镜像源
 
 阿里云：<https://developer.aliyun.com/mirror/freebsd-pkg>
 
@@ -102,9 +72,49 @@ FreeBSD-base: {
 }
 ```
 
+## 更新系统软件
+
+`pkg update && pkg upgrade`
+
+## 安装软件
+
+`pkg install git`
+
+## 安装Ports软件
+
+> FreeBSD 用 Ports 来编译安装最新版软件
+
+1. 查询软件包：<https://www.freshports.org/login.php>
+
+2. 克隆 Ports 仓库
+
+    `git clone https://git.FreeBSD.org/ports.git /usr/ports`
+
+3. 更新 Ports
+
+    ```bash
+    cd /usr/ports
+    git pull
+    ```
+
+4. 编译并安装 Hugo（示列）
+
+    ```sh
+    cd /usr/ports/www/gohugo
+    make install clean
+    ```
+
+5. 清理旧版本
+   Ports 的编译过程默认不会删除旧版本，建议每次更新后运行：
+
+    ```sh
+    pkg autoremove
+    ```
+
+
 ## bectl
 
-bectl 是 FreeBSD 内置的 Boot Environment (引导环境) 管理命令，用于创建、切换和删除可独立启动的系统环境。
+> bectl 是 FreeBSD 内置的 Boot Environment (引导环境) 管理命令，用于创建、切换和删除可独立启动的系统环境。
 
 ### 创建系统快照
 
