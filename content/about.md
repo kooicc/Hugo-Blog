@@ -14,8 +14,8 @@ Hi 💌
 🎮：兴趣爱好：电脑服务器、NAS 网络存储,业余无线电。[LOL海克斯大乱斗](https://lol.qq.com/act/a20251023arammayhem/?e_code=500130)
 
 - 目前拥有设备：
-  - 群晖 DS220+（DSM 7.3）
-  - 绿联 DXP4800（UGOS Pro）
+  - 群晖 DS220+
+  - 绿联 DXP4800
   - 英特尔 NUC11TNi5（飞牛 fnOS）
   - 戴尔 T340（Debian 13）
 
