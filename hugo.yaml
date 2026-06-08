@@ -74,8 +74,8 @@ params:
     - name: WeChat
       url: "https://weixin.qq.com/"
     - name: KoFi
-      title: FreeBSD基金会
-      url: "https://freebsdfoundation.org/donate-to-freebsd-foundation/"
+      title: 微信赞赏
+      url: "https://blog.244056614.xyz/about/#%E5%A6%82%E6%9E%9C%E5%86%85%E5%AE%B9%E5%AF%B9%E4%BD%A0%E6%9C%89%E6%89%80%E5%B8%AE%E5%8A%A9%E5%B8%8C%E6%9C%9B%E8%83%BD%E5%BE%97%E5%88%B0%E6%82%A8%E7%9A%84%E5%BE%AE%E4%BF%A1%E8%B5%9E%E8%B5%8F"
 
   # 搜索功能（Fuse.js）参数
   fuseOpts:
