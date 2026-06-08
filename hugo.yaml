@@ -37,6 +37,7 @@ params:
   assets:
     favicon: "/favicon.ico"
   env: production                  # 生产环境标识
+  ShowToc: true    # 大部分文章默认显示目录
   title: 秋雨夜眠
   description: "秋雨夜眠个人技术博客，记录技术学习与日常随笔" # SEO描述
   keywords: [Hugo, PaperMod, 技术博客, 编程, 后端] # SEO关键词（按需扩展）

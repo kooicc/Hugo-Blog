@@ -1,5 +1,6 @@
 ---
 title: "关于"
+showToc: false
 ---
 
 Hi 💌
@@ -20,7 +21,7 @@ Hi 💌
 
 联系方式 📮：<8bps@proton.me>
 
-**如果内容对你有所帮助，可以请我喝一杯咖啡，非常感谢** ☕️
+## 如果内容对你有所帮助，希望能得到您的赞赏☕️
 
 <img src="https://s3.bmp.ovh/2026/06/08/JEFovneL.jpg" width="500" alt="微信赞赏码">
 
