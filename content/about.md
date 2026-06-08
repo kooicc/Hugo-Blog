@@ -21,11 +21,11 @@ Hi 💌
 
 联系方式 📮：<8bps@proton.me>
 
-## 如果内容对你有所帮助，希望能得到您的微信赞赏☕️
+## 如果内容对你有所帮助，希望能得到您的赞赏☕️
 
 <img src="https://s3.bmp.ovh/2026/06/08/JEFovneL.jpg" width="500" alt="微信赞赏码">
 
-✅ 向对方展示我的名字 —— 赞赏记录
+✅ 向对方展示我的名字 —— 微信赞赏
 
 <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
   <img src="/images/donations/Iris.jpg" width="48" height="48" style="border-radius: 50%;">
