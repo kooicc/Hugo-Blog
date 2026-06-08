@@ -118,10 +118,15 @@ menu:
 # 渲染配置
 markup:
   highlight:
-    noClasses: false # 使用自定义CSS高亮代码（PaperMod推荐）
+    lineNos: true
+    lineNumbersInTable: false
+    noClasses: false
+    codeFences: true
+    guessSyntax: true
+    style: 'monokai'
   goldmark:
     renderer:
-      unsafe: true # 允许Markdown中使用HTML标签（技术博客必备）
+      unsafe: true
 
 frontmatter:
   lastmod:

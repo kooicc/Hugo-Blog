@@ -1,0 +1,15 @@
+/* assets/css/extended/code-font-size.css */
+
+/* 代码块整体调整 */
+.post-content pre {
+    font-size: 1.2em !important;
+}
+
+/* 行内代码微调（可选，略小于代码块会更好看） */
+.post-content p code,
+.post-content li code {
+    font-size: 0.9em !important;
+    padding: 0.2em 0.4em;
+}
+
+/* 深色/浅色模式都生效，不需要单独写 */
