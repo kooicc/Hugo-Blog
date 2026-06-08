@@ -4,8 +4,8 @@ date: 2026-06-04
 lastmod: 2025-06-05
 cover:
     image: "logo-horizontal-2024"
-    caption: "Unix-50年" # 图片下方的说明
-    hiddenInSingle: false            # 是否只在列表页显示，而在文章页内隐
+    caption: "" # 图片下方的说明
+    hiddenInSingle: true            # 是否只在列表页显示，而在文章页内隐
 
 categories:
   - FreeBSD
@@ -13,14 +13,11 @@ tags:
   - FreeBSD
 ---
 
-{{< figure
-    src="https://www.freshports.org/images/freshports.jpg"
-    caption="[FreeBSD](https://www.freebsd.org/zh-tw/) FreeBSD 是一个开源、符合标准的类 Unix 操作系统。"
->}}
+# [FreeBSD](https://www.freebsd.org/zh-tw/)是一个开源、符合标准的类 Unix 操作系统
 
-# 更新系统软件
+## 更新系统软件
 
-## 使用代理
+### 使用代理
 
 编辑*pkg.conf*文件末尾添加代理信息  
 
@@ -35,7 +32,7 @@ pkg_env: {
 }
 ```
 
-## 使用国内镜像源
+### 使用国内镜像源
 
 阿里云：<https://developer.aliyun.com/mirror/freebsd-pkg>
 
@@ -71,17 +68,20 @@ FreeBSD-base: {
 }
 ```
 
-## 更新系统软件
+### 更新系统软件
 
 `pkg update && pkg upgrade`
 
-## 安装软件
+### 安装软件
 
 `pkg install git`
 
-## 安装Ports软件
+### 安装Ports软件
 
-> FreeBSD 用 Ports 来编译安装最新版软件
+{{< figure
+    src="https://www.freshports.org/images/freshports.jpg"
+    caption="FreeBSD用 Ports 来编译安装最新版软件"
+>}}
 
 1. 查询软件包：<https://www.freshports.org/login.php>
 
