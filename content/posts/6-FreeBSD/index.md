@@ -3,7 +3,7 @@ title: FreeBSD
 date: 2026-06-04
 lastmod: 2025-06-05
 cover:
-    image: ""
+    image: "logo-horizontal-2024"
     caption: "Unix-50年" # 图片下方的说明
     hiddenInSingle: false            # 是否只在列表页显示，而在文章页内隐
 
