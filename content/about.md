@@ -2,36 +2,41 @@
 title: "关于"
 ---
 
-Hi💕
+Hi 💕
 
-这是我的博客，基于 [Hugo](https://github.com/gohugoio/hugo) & [PaperMod](https://github.com/adityatelange/hugo-PaperMod) 构建，托管在[GitHub](https://www.github.com/) & [Cloudflare Pages](https://pages.cloudflare.com/)
+这是我的博客，基于 [Hugo+PaperMod](https://github.com/adityatelange/hugo-PaperMod) & [Github+Cloudflare](https://pages.cloudflare.com/)搭建<a href="https://pages.cloudflare.com/"><img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare" style="display: inline; height: 29px; vertical-align: middle;"></a>
 
-从小看《动物世界》喜欢户外徒步，看人文自然纪录片（地球脉动）。听歌（李宗盛，孙燕姿，邓紫棋），游戏：英雄联盟。
+🎬：自然纪录片《[蓝色星球](https://movie.douban.com/subject/1325007/)》
 
-对电脑服务器、NAS网络存储、等感兴趣，沉溺于各种Linux发行版，不能自拔。
+🤹‍♂️：喜欢的歌：李宗盛、孙燕姿、邓紫棋。  
 
-目前拥有：
+🎮：兴趣爱好：电脑服务器、NAS 网络存储,业余无线电。[LOL海克斯大乱斗](https://lol.qq.com/act/a20251023arammayhem/?e_code=500130)
 
-- 群晖DS220+(DSM7.3)
-- 绿联DXP4800(UGOS Pro)
-- 英特尔 Intel® NUC11TNi5(飞牛fnOS)
-- 戴尔 DELL T340(Debian 13)
+**目前拥有设备：**
 
-- Alpine Linux: 最轻量
-- ArchLinux：滚动更新
-- Gentoo：编译滚动  
+- 群晖 DS220+（DSM 7.3）
+- 绿联 DXP4800（UGOS Pro）
+- 英特尔 NUC11TNi5（飞牛 fnOS）
+- 戴尔 T340（Debian 13）
 
-- DEB系列
-  - Debian：开源稳定
-  - Ubuntu: 桌面环境
+联系方式 📮：<koicc@qq.com>
 
-- RPM系列
-  - Fedora：试验田
-  - RHEL：商业稳定
-  - RockyLinux：开源兼容
-  - CentOS Stream：滚动更新
+如果内容对你有所帮助，可以请我喝一杯咖啡，非常感谢 ☕️
 
-联系方式📮：<8bps@proton.me>
+<img src="https://s3.bmp.ovh/2026/06/08/JEFovneL.jpg" width="500" alt="微信赞赏码">
 
-<!-- markdown -->
-![bing](https://api.xygeng.cn/bing/view)
+✅ 向对方展示我的名字 —— 赞赏记录
+
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+  <img src="/images/donations/Iris.jpg" width="48" height="48" style="border-radius: 50%;">
+  <div>
+    2026-06-08 收到来自 <strong>Iris</strong> 的 +6.60 CNY，感谢支持
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+  <img src="/images/donations/liangpaopao.jpg" width="48" height="48" style="border-radius: 50%;">
+  <div>
+    2026-06-08 收到来自 <strong>梁泡泡🎃</strong> 的 +8.80 CNY，感谢支持
+  </div>
+</div>

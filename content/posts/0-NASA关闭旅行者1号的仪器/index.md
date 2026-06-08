@@ -1,19 +1,17 @@
 ---
-title: "NASA关闭旅行者1号上的一台仪器以保持航天器运行"
+title: "旅行者1号"
 date: 2026-04-18
-tags: ["旅行者一号", "NASA"]
+tags: ["Voyager-1", "NASA"]
 categories: "天文物理"
+weight: 1  # 添加这行，数字越小越靠前
 showToc: false
 cover:
-  image: ""
+    image: "1_Voyager_artist_concept.jpg"
+    caption: "旅行者 1 号艺术构想图，它正穿行于绚烂星云之间。图片来源：NASA/喷气推进实验室-加州理工学院" # 图片下方的说明
+    hiddenInSingle: false            # 是否只在列表页显示，而在文章页内隐
 ---
 
 2026年4月17日，NASA所属喷气推进实验室（JPL）的工程师们发送指令，关闭了旅行者1号上的一项名为低能带电粒子实验（LECP）的仪器。这艘核动力航天器电力快耗尽，关闭LECP被认为是维持人类首个星际探测器运行的最佳方式。
-
-{{< figure
-    src="https://assets.science.nasa.gov/dynamicimage/assets/science/missions/voyager/images/1_Voyager_artist_concept.jpg"
-    caption="旅行者 1 号艺术构想图，它正穿行于绚烂星云之间。图片来源：NASA/喷气推进实验室-加州理工学院"
->}}
 
 自1977年[旅行者1号](https://science.nasa.gov/mission/voyager/)发射以来，LECP几乎未间断运行——近49年。它测量来自太阳系和银河系的低能带电粒子，包括离子、电子和宇宙射线。该仪器提供了关于星际介质结构的关键数据，探测到压力前沿和日球层外空间中粒子密度变化的区域。旅行者号是唯一距离地球足够远以提供这些信息的航天器。
 
