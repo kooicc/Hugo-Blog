@@ -1,31 +1,44 @@
-<!-- markdownlint-disable first-line-h1 -->
+Hi 💌
 
-Hi，👋
+这是我的博客，基于 [Hugo+PaperMod](https://github.com/adityatelange/hugo-PaperMod) & [Cloudflare Pages](https://pages.cloudflare.com/)<a href="https://pages.cloudflare.com/"><img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare" style="display: inline; height: 30px; vertical-align: middle;"></a>
 
-这是我的博客
+🎬：自然纪录片、社会历史
 
-托管于 [GitHub Pages](https://kooicc.github.io) ，并由 <img src="https://s3.bmp.ovh/2026/04/19/Xjvqza0r.png" alt="Cloudflare" style="height: 2.2em; width: auto; vertical-align: -0.3em; display: inline-block;"> 提供全球加速。
+<div style="display: flex; gap: 15px; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    {{< figure src="/images/about/Blue-Planet-II.webp" alt="蓝色星球" width="200" caption="[《蓝色星球》](https://movie.douban.com/subject/1325007/)" >}}
+  </div>
+  <div style="text-align: center;">
+    {{< figure src="/images/about/Planet-Earth-II.webp" alt="地球脉动" width="192" caption="[《地球脉动》](https://movie.douban.com/subject/26979545/)" >}}
+  </div>
+  <div style="text-align: center;">
+    {{< figure src="/images/about/zhuyuanzhang.jpg" alt="百家讲坛" width="215" caption="[《百家讲坛：明太祖朱元璋》](https://movie.douban.com/subject/27202894/)" >}}
+  </div>
+</div>
 
-从小看《动物世界》喜欢户外徒步，看人文自然纪录片（地球脉动）。听歌（李宗盛，孙燕姿，邓紫棋），游戏：英雄联盟。
 
-对电脑服务器、NAS网络存储、等感兴趣，沉溺于各种Linux发行版，不能自拔。
+🤹‍♂️：喜欢的歌：李宗盛、孙燕姿、邓紫棋、[霉霉Taylor Swift](https://www.taylorswift.com/)
 
-目前拥有：群晖DS220+(DSM7.3)/绿联DXP4800(UGOS Pro)/HPE Gen 10 Plus(飞牛fnOS)/DELL T340(Debian 13)
+🎮：兴趣爱好：计算机服务器、NAS网络存储、业余无线电、[LOL海克斯大乱斗](https://lol.qq.com/act/a20251023arammayhem/?e_code=500130) 
 
-- Alpine Linux (最近尝试)
-- ArchLinux：滚动最新
-- Gentoo：编译滚动  
+<br>联系方式 📮：<8bps@proton.me>
 
-- DEB系列
-  - Debian：开源稳定
+## 如果内容对你有所帮助，希望能得到您的赞赏☕️
 
-- RPM系列
-  - Fedora：试验田
-  - RHEL：商业稳定
-  - RockyLinux：开源兼容
-  - CentOS Stream：滚动更新
+<img src="/images/donations/wechat.png" width="480" alt="微信赞赏码">
 
-联系方式📮：<8bps@proton.me>
+<br>✅ 向对方展示我的名字--赞赏记录
 
-<!-- markdown -->
-![bing](https://api.xygeng.cn/bing/view)
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+  <img src="/images/donations/Iris.jpg" width="48" height="48" style="border-radius: 50%;">
+  <div>
+    2026-06-08 11:16:26 收到来自 <strong>Iris</strong> ¥6.60 感谢支持！
+  </div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+  <img src="/images/donations/liangpaopao.jpg" width="48" height="48" style="border-radius: 50%;">
+  <div>
+    2026-06-08 11:17:13 收到来自 <strong>梁泡泡🎃</strong> ¥8.80 感谢支持！
+  </div>
+</div>
