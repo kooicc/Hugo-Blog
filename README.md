@@ -12,6 +12,6 @@ Hi 💌
 
 ## 如果内容对你有所帮助，希望能得到您的赞赏☕️
 
-<img src="![wechat.png](https://s3.bmp.ovh/2026/06/09/vPTTDpoC.png)" width="480" alt="微信赞赏码">
+<img src="https://s3.bmp.ovh/2026/06/09/vPTTDpoC.png" width="480" alt="微信赞赏码">
 
 <br>✅ 向对方展示我的名字--赞赏记录
