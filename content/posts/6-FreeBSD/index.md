@@ -1,25 +1,26 @@
 ---
 title: FreeBSD
 date: 2026-06-04
-lastmod: 2025-06-05
 cover:
-    image: "logo-horizontal-2024"
-    caption: "" # 图片下方的说明
-    hiddenInSingle: true            # 是否只在列表页显示，而在文章页内隐
-
+    image: "unix-50-grey"
+    caption: "WelCOM to UNIX 50!" # 图片下方的说明
+    hiddenInSingle: false            # 是否只在列表页显示，而在文章页内隐
+    hidden: true          # 只在文章内显示
 categories:
   - FreeBSD
 tags:
   - FreeBSD
 ---
 
-# [FreeBSD](https://www.freebsd.org/zh-tw/)是一个开源、符合标准的类 Unix 操作系统
+[FreeBSD](https://www.freebsd.org/zh-tw/)是一款多功能且开源的类 UNIX® 操作系统。
+
+<!--more-->
 
 ## 更新系统软件
 
 ### 使用代理
 
-编辑*pkg.conf*文件末尾添加代理信息  
+编辑`pkg.conf`文件末尾添加代理信息  
 
 `ee /usr/local/etc/pkg.conf`
 
@@ -36,7 +37,7 @@ pkg_env: {
 
 阿里云：<https://developer.aliyun.com/mirror/freebsd-pkg>
 
-创建*FreeBSD.conf*文件进行源仓库配置
+创建`FreeBSD.conf`文件进行源仓库配置
 
 `ee /usr/local/etc/pkg/repos/FreeBSD.conf`  
 

@@ -17,7 +17,7 @@ Hi 💌
     {{< figure src="/images/about/Planet-Earth-II.webp" alt="地球脉动" width="192" caption="[《地球脉动》](https://movie.douban.com/subject/26979545/)" >}}
   </div>
   <div style="text-align: center;">
-    {{< figure src="/images/about/zhuyuanzhang.jpg" alt="百家讲坛" width="215" caption="[《百家讲坛：明太祖朱元璋》](https://movie.douban.com/subject/27202894/)" >}}
+    {{< figure src="/images/about/zhuyuanzhang.jpg" alt="百家讲坛" width="216" caption="[《百家讲坛：明太祖朱元璋》](https://movie.douban.com/subject/27202894/)" >}}
   </div>
 </div>
 
