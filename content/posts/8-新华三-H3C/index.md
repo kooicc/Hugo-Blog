@@ -35,3 +35,5 @@ quit
 display ntp-service status
 display ntp-service sessions
 ```
+
+## 会话数限制

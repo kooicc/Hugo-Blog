@@ -1,0 +1,26 @@
+/* 代码块高度限制 - 防止长代码撑爆页面 */
+.post-content .highlight pre {
+    max-height: 350px;
+    overflow-y: auto;
+    border-radius: 8px;
+}
+
+/* 可选：定制滚动条样式 */
+.post-content .highlight pre::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.post-content .highlight pre::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+
+.post-content .highlight pre::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+}
+
+.post-content .highlight pre::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
