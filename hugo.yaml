@@ -20,7 +20,7 @@ minify:
 
 # 分页配置
 pagination:
-  pagerSize: 10                    # 每页展示10篇文章（可根据内容量调整）
+  pagerSize: 6                    # 每页展示10篇文章（可根据内容量调整）
 
 # 输出格式（搜索功能依赖JSON）
 outputs:

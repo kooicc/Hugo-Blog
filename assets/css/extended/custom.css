@@ -1,0 +1,17 @@
+.footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.footer__content span {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.footer__content a img {
+    vertical-align: middle;
+}
