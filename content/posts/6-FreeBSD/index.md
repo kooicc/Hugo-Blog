@@ -150,8 +150,10 @@ FreeBSD-base: {
 
 ## zfs snapshot
 
-ZFS 快照是 ZFS 文件系统的核心功能，可以在秒级创建文件系统在某一时刻的只读副本，几乎不占用额外空间（只在文件变化后才记录差异）
+ZFS 快照是 ZFS 文件系统的核心功能，可以在秒级创建文件系统在某一时刻的只读副本，几乎不占用额外空间（只在文件变化后才记录差异）	
 
+---
 
+FreeBSD ""艺术作品"	
 
-![daemon-phk](./daemon-phk.png)
+<img src="./beastie-right.svg" alt="daemon-phk" style="zoom: 25%;" />

@@ -3,11 +3,13 @@ title: "关于"
 showToc: false
 ---
 
-Hi 💌
+Hi 💌	
 
-这是我的博客，基于 [Hugo+PaperMod](https://github.com/adityatelange/hugo-PaperMod) & [Cloudflare Pages](https://pages.cloudflare.com/)<a href="https://pages.cloudflare.com/"><img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare" style="display: inline; height: 30px; vertical-align: middle;"></a>
+这是我的博客，基于 [Hugo+PaperMod](https://github.com/adityatelange/hugo-PaperMod) & [Cloudflare Pages](https://pages.cloudflare.com/)	
 
-🎬电影：自然纪录片、社会历史
+[Cloudflare | 随时随地连⁠接、保⁠护、构建](https://www.cloudflare.com/zh-cn/)<a href="https://pages.cloudflare.com/"><img src="https://deploy.workers.cloudflare.com/button" alt="Deploy to Cloudflare" style="display: inline; height: 30px; vertical-align: middle;"></a>
+
+<img src="https://iqiyi.com/favicon.ico" style="width:21px;height:21px;display:inline-block;vertical-align:middle;position:relative;top:-2px;margin-right:4px;"> ：自然纪录片、社会历史
 
 <div style="display: flex; gap: 15px; flex-wrap: wrap;">
   <div style="text-align: center;">
@@ -20,13 +22,13 @@ Hi 💌
     {{< figure src="/images/about/zhuyuanzhang.jpg" alt="百家讲坛" width="217" caption="[《百家讲坛：明太祖朱元璋》](https://movie.douban.com/subject/27202894/)" >}}
   </div>
 </div>
+<img src="https://y.qq.com/favicon.ico" style="width:21px;height:21px;display:inline-block;vertical-align:middle;position:relative;top:-2px;margin-right:4px;"> ：李宗盛、孙燕姿、邓紫棋、霉霉Taylor Swift;
 
+<img src="https://lol.qq.com/favicon.ico" style="width:21px;height:21px;display:inline-block;vertical-align:middle;position:relative;top:-2px;margin-right:4px;">：NAS网络存储、业余无线电、LOL海克斯大乱斗;
 
-🤹‍音乐：李宗盛、孙燕姿、邓紫棋、[霉霉Taylor Swift](https://www.taylorswift.com/)
+<img src="https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon_gmail_2026_v2.ico
+" style="width:20px;height:20px;display:inline-block;vertical-align:middle;position:relative;top:-2px;margin-right:4px;">：<8bps@proton.me>
 
-🎮兴趣：计算机服务器、NAS网络存储、业余无线电、[LOL海克斯大乱斗](https://lol.qq.com/act/a20251023arammayhem/?e_code=500130) 
-
-<br>联系方式 📮：<8bps@proton.me>
 
 ## 如果内容对你有所帮助，希望能得到您的赞赏☕️
 
