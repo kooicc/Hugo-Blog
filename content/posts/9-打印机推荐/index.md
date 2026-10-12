@@ -1,8 +1,8 @@
 ---
-title: "打印机选购指南：黑白与彩色怎么选"
+title: "打印机选购指南"
 date: 2026-10-12
-tags: ["打印机", "选购", "硬件"]
-categories: "数码"
+tags: ["打印机"]
+categories: "数码硬件"
 showToc: true
 cover:
     image:
@@ -10,35 +10,37 @@ cover:
 
 买打印机别看标价，看**总拥有成本**：机器价 + 耗材单页成本。下面按黑白、彩色两条线，只讲每台机器**值得买的理由**。
 
-## 一、黑白激光
+## 一、黑白激光打印机
+
+打印速度快、原装硒鼓耗材贵；缺点，是原装硒鼓耗材贵。
 
 <div class="printer-grid">
   <div class="printer-card">
     <img src="hp1020plus.png" alt="HP 1020 Plus">
-    <div class="printer-name">HP 1020 Plus</div>
-    <div class="printer-func">仅打印</div>
-    <div class="printer-note">一代神机。皮实耐操、12A 硒鼓极便宜，加粉续命，单页成本低到离谱。缺点是停产，只能买二手，无网络无双面。</div>
-    <div class="printer-spec">二手 ¥200-400 · 单页约 0.05 元</div>
+    <div class="printer-name">惠普 1020 Plus</div>
+    <div class="printer-func">仅单面打印</div>
+    <div class="printer-note">一代神机。皮实耐操、12A 硒鼓。买二手性价比极高，无网络无双面。可以通过第三方盒子实现网络打印。</div>
+    <div class="printer-spec">二手400元左右</div>
   </div>
   <div class="printer-card">
     <img src="canon-pbp2900.png" alt="Canon PBP2900">
-    <div class="printer-name">Canon PBP2900</div>
-    <div class="printer-func">仅打印</div>
-    <div class="printer-note">同级的耐用机型，打印稳定、兼容硒鼓便宜。纯打印高性价比之选，同样停产需淘二手。</div>
-    <div class="printer-spec">二手 ¥200-400 · 单页约 0.06 元</div>
+    <div class="printer-name">佳能 PBP2900</div>
+    <div class="printer-func">仅单面打印</div>
+    <div class="printer-note">一代神机。皮实耐操、12A 硒鼓。买二手性价比极高，无网络无双面。可以通过第三方盒子实现网络打印。补充说明：惠普 1020 系列由佳能代工，原型就是 LBP2900，两者结构几乎相同、硒鼓完全通用（HP 12A = 佳能 CRG303）。选哪台主要看外观偏好和价格，耗材成本一模一样。</div>
+    <div class="printer-spec">二手500元左右</div>
   </div>
   <div class="printer-card">
     <img src="hp-m128fw.png" alt="HP M128fw MFP">
-    <div class="printer-name">HP M128fw MFP</div>
+    <div class="printer-name">惠普 M128fw</div>
     <div class="printer-func">打印 + 复印 + 扫描</div>
-    <div class="printer-note">三合一，带无线和传真。家里要复印证件、扫文档就选它，一台顶三台。</div>
-    <div class="printer-spec">¥900-1200 · 单页约 0.1 元</div>
+    <div class="printer-note">三合一，带无线和网络接口，小公司打印没问题，注意不支持自动双面，可以考虑惠普4104fdw 打印机</div>
+    <div class="printer-spec">全新¥1800左右元</div>
   </div>
 </div>
 
-## 二、彩色喷墨
+## 二、彩色喷墨打印机
 
-墨仓式（连供）色彩好、单页成本极低；缺点是喷头怕干，**必须定期使用**。
+墨仓式色彩好、墨水便宜；缺点是，打印略慢，不能闲置太长时间，喷头容易堵。
 
 <div class="printer-grid">
   <div class="printer-card">
