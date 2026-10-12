@@ -15,3 +15,11 @@
 .footer__content a img {
     vertical-align: middle;
 }
+/* 让行号不可选中，复制时不会复制行号 */
+.highlight .ln,
+.highlight .lineno {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}

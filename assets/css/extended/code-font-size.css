@@ -2,7 +2,7 @@
 
 /* 代码块整体调整 */
 .post-content pre {
-    font-size: 1.1em !important;
+    font-size: 1.0em !important;
 }
 
 /* 行内代码微调（可选，略小于代码块会更好看） */

@@ -27,7 +27,7 @@ Hi 💌
 <img src="https://lol.qq.com/favicon.ico" style="width:21px;height:21px;display:inline-block;vertical-align:middle;position:relative;top:-2px;margin-right:4px;">：NAS网络存储、业余无线电、LOL海克斯大乱斗;
 
 <img src="https://ssl.gstatic.com/ui/v1/icons/mail/images/favicon_gmail_2026_v2.ico
-" style="width:20px;height:20px;display:inline-block;vertical-align:middle;position:relative;top:-2px;margin-right:4px;">：<8bps@proton.me>
+" style="width:20px;height:20px;display:inline-block;vertical-align:middle;position:relative;top:-2px;margin-right:4px;">：<koicc@qq.com>
 
 
 ## 如果内容对你有所帮助，希望能得到您的赞赏☕️

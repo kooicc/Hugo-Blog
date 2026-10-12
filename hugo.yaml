@@ -120,7 +120,7 @@ menu:
 markup:
   highlight:
     lineNos: true
-    lineNumbersInTable: false
+    lineNumbersInTable: true
     noClasses: false
     codeFences: true
     guessSyntax: true
