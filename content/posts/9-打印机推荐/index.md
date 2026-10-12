@@ -8,11 +8,9 @@ cover:
     image:
 ---
 
-买打印机别看标价，看**总拥有成本**：机器价 + 耗材单页成本。下面按黑白、彩色两条线，只讲每台机器**值得买的理由**。
-
 ## 一、黑白激光打印机
 
-打印速度快、原装硒鼓耗材贵；缺点，是原装硒鼓耗材贵。
+胜在**快、稳、不堵头**，放再久也不怕；缺点是**原装硒鼓耗材贵**，但可以加粉或用兼容硒鼓，成本一下就压下来了。
 
 <div class="printer-grid">
   <div class="printer-card">
@@ -26,7 +24,7 @@ cover:
     <img src="canon-pbp2900.png" alt="Canon PBP2900">
     <div class="printer-name">佳能 PBP2900</div>
     <div class="printer-func">仅单面打印</div>
-    <div class="printer-note">一代神机。皮实耐操、12A 硒鼓。买二手性价比极高，无网络无双面。可以通过第三方盒子实现网络打印。补充说明：惠普 1020 系列由佳能代工，原型就是 LBP2900，两者结构几乎相同、硒鼓完全通用（HP 12A = 佳能 CRG303）。选哪台主要看外观偏好和价格，耗材成本一模一样。</div>
+    <div class="printer-note">惠普 1020 Plus双胞胎，两者结构几乎相同、硒鼓完全通用（HP 12A = 佳能 CRG303），一模一样。</div>
     <div class="printer-spec">二手500元左右</div>
   </div>
   <div class="printer-card">
@@ -38,7 +36,11 @@ cover:
   </div>
 </div>
 
-## 二、彩色喷墨打印机
+## 二、彩色打印机（喷墨 + 激光）
+
+彩色分两条路线：**墨仓喷墨**成本低、能打照片，但要勤用防堵头；**彩色激光**不堵头、速度快，但机器和单页成本都更高，只适合打文档彩页。
+
+### 墨仓喷墨（成本低、能打照片）
 
 墨仓式色彩好、墨水便宜；缺点是，打印略慢，不能闲置太长时间，喷头容易堵。
 
@@ -71,24 +73,43 @@ cover:
     <div class="printer-note">家用墨仓主力，自动双面 + 液晶屏，比商用机便宜一截。家庭彩打、打作业一步到位。</div>
     <div class="printer-spec">¥1300 · 彩色单页约 0.1 元</div>
   </div>
+</div>
+
+### 彩色激光（不堵头、速度快，只打文档彩页）
+
+机器和单页成本都更高，<b>不能打照片</b>，适合"彩打少但求可靠"的场景。
+
+<div class="printer-grid">
   <div class="printer-card">
-    <img src="hp-m179fnw.png" alt="HP M179fnw">
-    <div class="printer-name">HP M179fnw</div>
-    <div class="printer-func">彩色激光一体机</div>
-    <div class="printer-note">彩色激光，<b>不堵头</b>、速度快、文字锐利，放几个月不用也不怕。彩打少但求可靠的选它，代价是单页成本高。</div>
-    <div class="printer-spec">¥2600 · 彩色单页约 0.5-0.6 元</div>
+    <img src="hp-m252dw.png" alt="HP M252dw">
+    <div class="printer-name">HP M252dw</div>
+    <div class="printer-func">彩色激光 · 仅打印</div>
+    <div class="printer-note">二手彩激王者。<b>不堵头</b>、自动双面 + 无线，皮实耐用（有用户连续 5 年零卡纸）。老机型不受新固件限制，可换兼容硒鼓，二手价极低。</div>
+    <div class="printer-spec">二手 ¥200-1000 · 彩色单页约 0.3-0.6 元</div>
+  </div>
+  <div class="printer-card">
+    <img src="hp-m254dw.png" alt="HP M254dw">
+    <div class="printer-name">HP M254dw</div>
+    <div class="printer-func">彩色激光 · 仅打印</div>
+    <div class="printer-note">M252dw 的升级款，速度更快（21ppm）、月负荷更高（4 万页），自动双面 + 无线。二手流通量大，口碑扎实。</div>
+    <div class="printer-spec">二手 ¥600-1200 · 彩色单页约 0.3-0.6 元</div>
+  </div>
+  <div class="printer-card">
+    <img src="canon-lbp7018c.png" alt="Canon LBP7018C">
+    <div class="printer-name">佳能 LBP7018C</div>
+    <div class="printer-func">彩色激光 · 仅打印</div>
+    <div class="printer-note">小巧静音（仅 4.8kg / 45dB），<b>带自动双面</b>，放书桌不占地。注意碳粉盒容量小（彩 300 页），耗材换得勤。</div>
+    <div class="printer-spec">二手 ¥800-1300 · 彩色单页约 0.3-0.5 元</div>
   </div>
 </div>
 
 ## 三、一句话总结
 
-- **黑白纯打印、省钱** → HP 1020 Plus / Canon PBP2900（皮实、加粉便宜，注意停产二手）
+- **黑白纯打印、省钱** → HP 1020 Plus / Canon PBP2900（皮实、加粉便宜，二手）
 - **黑白要复印扫描** → HP M128fw
 - **家用彩打、要照片** → Canon G3820 / Epson L4266（墨仓，注意勤用防堵头）
 - **商用高频彩打** → Epson L6468 / WF-C5890（快、容量大、成本低）
-- **彩打少但求可靠** → HP M179fnw 彩色激光（不堵头，单页贵）
-
-选机器只有一个标准：**合你的使用场景**。
+- **彩打少但求可靠** → HP M252dw / M254dw / 佳能 LBP7018C 彩色激光（二手经典，不堵头，单页贵）
 
 <style>
 .printer-grid {
